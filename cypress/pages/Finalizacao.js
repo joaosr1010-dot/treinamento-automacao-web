@@ -39,24 +39,24 @@ export function iniciarCheckout (){
       .click()
 }
 
-export function inserirDadosCheckout(){
+export function inserirDadosCheckout(dados){
     cy.get('[data-testid="first-name"]')
-      .type('João')
+      .type(dados.nome)
 
    cy.get('[data-testid="last-name"]')
-    .type('Antônio')
+    .type(dados.sobrenome)
         
     cy.get('[data-testid="email"]')
-      .type('joaoexemplo@gmail.com')
+      .type(dados.email)
         
     cy.get('[data-testid="phone"]')
-      .type('8199999999')
+      .type(dados.telefone)
         
     cy.get('[data-testid="address"]')
-      .type('Loteamento exemplo')
+      .type(dados.endereco)
 
     cy.get('[data-testid="city"]')
-      .type('Recife')
+      .type(dados.cidade)
 
     cy.get('[data-testid="state"]')
       .select('California')

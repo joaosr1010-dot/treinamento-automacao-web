@@ -15,5 +15,8 @@
   },
   "allowScripts": {
     "cypress@16.3.0": true
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0"
   }
 }
