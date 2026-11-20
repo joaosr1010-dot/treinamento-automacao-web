@@ -1,6 +1,6 @@
 # Treinamento de automação web com Cypress
 
-Esse projeto tem como objetivo reforçar ainda mais o entendimento de automação web com Cypress, Page objects model (POM) e Faker.
+Esse projeto tem como objetivo reforçar ainda mais o entendimento de automação web com Cypress, Page objects model (POM), Faker e Cypress Cloud.
 
 ## Tecnologias utilizadas:
 - Cypress
@@ -20,6 +20,5 @@ Esse projeto tem como objetivo reforçar ainda mais o entendimento de automaçã
 ## Integração com Cypress Cloud:
 
 - Integração do projeto com Cypress Cloud para registro e acompanhamento das execuções dos testes.
-- Execução dos testes utilizando Google Chrome.
 - Visualização dos resultados, histórico de execuções e Test Replay.
     
